@@ -1,0 +1,11 @@
+applications:
+- name: template-websocket-server
+  path: target/predix-websocket-server-2.0.3.jar
+  memory: 512M
+  instances: 1
+  timeout: 180
+  #services:
+  #  - testrabbitmq
+env:
+  mfieldChangedEvent_ErrorQueue: FieldChangedEventErrorQueue
+  fieldChangedEvent_MainQueue: FieldChangedEventMainQueue
