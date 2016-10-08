@@ -34,13 +34,13 @@ import com.neovisionaries.ws.client.WebSocketException;
 @WebAppConfiguration
 @IntegrationTest
 
-public class PredixWebsocketServerApplicationTests {
+public class PredixWebsocketServerApplicationIT {
 
 	/**
      * 
      */
     // not declared as private--emulated by a synthetic accessor method warning
-    static Logger            log             = LoggerFactory.getLogger(PredixWebsocketServerApplicationTests.class);
+    static Logger            log             = LoggerFactory.getLogger(PredixWebsocketServerApplicationIT.class);
 
     /**
      * 
